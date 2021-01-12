@@ -27,7 +27,7 @@ step 3: name the network: block18test and assign the chainID: 118
 
 step 4: copy public address from ZBank's MyCrypto wallet `0x...` address, then enter again at the blank `0x` prompt
 
-![Configuration_Puppeth](./Images/block18testConfig.png)
+![Configuration_Puppeth](./block18testConfig.png)
 
 After creating data directories for the nodes, launching them into mining mode will facilitate a transaction with ZBanks MyCrypto wallet and the custom network we created with Ethereum tools' puppeth and geth commands.
 
@@ -65,7 +65,7 @@ step 5: mining between nodes `1` and `2` with `node2` enabling an RPC port which
 
 node2 will be launched in a separate terminal and from the same directory node1 was launched
 
-When launching node2 the enode address will be copied from node1: ![enode visual](./Images/enode.jpg)
+When launching node2 the enode address will be copied from node1: ![enode visual](./enode.jpg)
 
 output for node2 will provide information about `Imported new chain segment` and `Block synchronisation started`
 
@@ -81,7 +81,7 @@ Connecting the custom network and blockchain created with Ethereum tools to ZBan
 
 - Clicking on the eye icon next to the "Private Key" field, copy the private key for testing our network transaction
 
-- Connect MyCrypto with the custom newtork by selecting the "Change Network" tab in the app at the bottom left: ![custom network](./Images/customnetworkarrow.png)
+- Connect MyCrypto with the custom newtork by selecting the "Change Network" tab in the app at the bottom left: ![custom network](./customnetworkarrow.png)
 
 - `Add Custom Node` to include ZBank's network: block18test and chainID: 118
 
@@ -99,7 +99,7 @@ Connecting the custom network and blockchain created with Ethereum tools to ZBan
 
 An example of transaction Metadata is as follows:
 
-![Transaction_Metadata](./Images/block18testTX_status.png)
+![Transaction_Metadata](./block18testTX_status.png)
 
 
 
